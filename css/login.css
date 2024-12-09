@@ -1,0 +1,74 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  background-color: black; /* Темный фон */
+  color: #ffffff; /* Белый текст */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login-container {
+  background-color: #303030; /* Темный блок */
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.7);
+  width: 100%;
+  max-width: 400px;
+  text-align: left;
+}
+
+h1 {
+  margin-bottom: 20px;
+  color: #ffffff; /* Белый заголовок */
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 10px;
+  font-size: 14px; /* Светло-серый текст для меток */
+}
+
+input {
+  padding: 10px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  background-color: #727272; /* Темный фон для инпутов */
+  color: #ffffff;
+  outline: none;
+}
+
+button {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  background-color: #ff6b00; /* Зеленая кнопка */
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #45a049; /* Темнее при наведении */
+}
+
+.error {
+  color: #f44336; /* Красный для ошибок */
+  margin-bottom: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: #ff6b00;
+  font-size: 14px;
+}
