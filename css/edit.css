@@ -1,0 +1,229 @@
+@charset "UTF-8";
+/* Reset styles */
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+:focus,
+:active {
+  outline: none;
+}
+
+a:focus,
+a:active {
+  outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+summary::-webkit-details-marker {
+  display: none;
+}
+
+summary::-moz-list-bullet {
+  list-style-type: none;
+}
+
+summary::marker {
+  content: "";
+}
+
+/* Main styles */
+body {
+  background-color: black;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 17px;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: 1px solid #333;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #555;
+  color: white;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+h1 {
+  text-align: center;
+  font-size: 24px;
+  padding: 15px;
+}
+
+.container {
+  padding: 10px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.back-link {
+  align-self: center;
+  max-width: -moz-fit-content;
+  max-width: fit-content;
+  padding: 8px;
+  background-color: #3a3a3a;
+  color: white;
+  font-family: "Geologica", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  text-align: center;
+  display: block;
+  border-radius: 10px;
+  transition: ease 0.4s;
+}
+
+.back-link:hover {
+  cursor: pointer;
+  color: #ff6b00;
+  box-shadow: 0 0 3px 3px #fe9330;
+}
+
+/* Form styles */
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"] {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #333;
+  font-size: 16px;
+  background-color: #222;
+  color: #fff;
+}
+
+input[type="checkbox"] {
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  background-color: #fff;
+  border: 1px solid #333;
+  margin: 0;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
+input[type="checkbox"]:checked {
+  background-color: #337ab7;
+}
+
+.default-btn {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #337ab7;
+  color: #fff;
+  border: none;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  border-radius: 4px;
+  margin-top: 10px;
+}
+
+.default-btn:hover {
+  background-color: #286090;
+}
+
+form > * {
+  margin-bottom: 15px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"] {
+    width: 90%;
+  }
+}

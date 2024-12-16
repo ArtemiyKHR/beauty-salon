@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Курсы парикмахера в Воронеже</title>
+
+  <link
+          href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css"
+          rel="stylesheet"
+  />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+          href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Meddon&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Proza+Libre:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap"
+          rel="stylesheet"
+  />
+  <link
+          href="https://fonts.googleapis.com/css2?family=Geologica:wght@100..900&display=swap"
+          rel="stylesheet"
+  />
+
+  <link rel="stylesheet" href="./css/normalize.css" />
+  <link rel="stylesheet" href="./css/fonts.css" />
+  <link rel="stylesheet" href="./css/style.css" />
+</head>
+<body>
+<header class="header" id="header">
+  <div class="container">
+    <div class="header__inner">
+      <div class="header__logo">
+        <p class="header__logo-link">Элегантный</p>
+        <p class="header__logo-sublink">Уют</p>
+      </div>
+      <nav class="header__menu">
+        <ul class="header__menu-items">
+          <li class="header__menu-item">
+            <a class="header__menu-link" href="#welcome">Главная</a>
+          </li>
+          <li class="header__menu-item">
+            <a class="header__menu-link" href="#course">Курсы</a>
+          </li>
+          <li class="header__menu-item">
+            <a class="header__menu-link" href="#programm">Программа</a>
+          </li>
+          <li class="header__menu-item">
+            <a class="header__menu-link" href="#tutor">Преподаватели</a>
+          </li>
+          <li class="header__menu-item">
+            <a class="header__menu-link" href="#footer">Контакты</a>
+          </li>
+          <li class="header__menu-item">
+            <a class="header__menu-link" href="./php/login.php"
+            >Вход</a
+            >
+          </li>
+          <li class="header__menu-item">
+            <a
+                    class="default-btn header__default-btn"
+                    href="#popup"
+                    data-function="popup"
+            >Записаться на обучение</a
+            >
+          </li>
+        </ul>
+      </nav>
+      <div class="header__burger-link">
+        <span></span>
+      </div>
+    </div>
+  </div>
+</header>
+<section class="welcome" id="welcome">
+  <div class="container">
+    <div class="welcome__inner">
+      <div class="welcome__top">
+        <div class="welcome__top-image">
+          <img
+                  src="./img/welcome__img.jpg"
+                  alt="Девушка, смотрящая на заголовок"
+                  title="ImageByFreepik"
+          />
+        </div>
+        <div class="welcome__top-img">
+          <img
+                  src="./img/welcome__img2.jpg"
+                  alt="Красивая девушка"
+                  title="ImageByFreepik"
+          />
+        </div>
+        <div class="welcome__top-text">
+          <h1 class="welcome__top-title">
+            Добро пожаловать в Элегантный уют!
+          </h1>
+          <p class="welcome__top-descr">
+            Салон красоты "Элегантный уют" – это место, где каждая женщина и
+            каждый мужчина найдут для себя нечто особенное. Мы предлагаем
+            широкий спектр услуг, направленных на то, чтобы подчеркнуть вашу
+            естественную красоту и подарить вам незабываемые впечатления.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="course" id="course">
+  <div class="container">
+    <div class="course__inner">
+      <h2 class="default-title">Курсы</h2>
+      <div class="course__inner-list">
+        <ul class="course__inner-items">
+          <li class="course__inner-item">
+            <div class="course__inner-itemImage">
+              <img
+                      src="./img/course1.jpg"
+                      alt="Картинка курса"
+                      title="ImageByFreepik"
+              />
+              <p class="course__inner-itemPrice">Стоимость: 1000 руб</p>
+            </div>
+
+            <div class="course__inner-itemTextBox">
+              <h2 class="course__inner-itemTitle">Базовый курс</h2>
+              <p class="course__inner-itemDescription">
+                Для тех, кто только начинает свой путь в мире красоты.
+              </p>
+              <h2 class="course__inner-itemTitle">Что вас ждёт:</h2>
+              <ul class="course__inner-itemDescriptionList">
+                <li>
+                  Основы парикмахерского искусства, маникюра, педикюра,
+                  макияжа.
+                </li>
+                <li>
+                  Практические занятия с использованием профессиональных
+                  инструментов и материалов.
+                </li>
+                <li>Работа с моделями.</li>
+                <li>
+                  Результат: Вы получите базовые знания и навыки,
+                  необходимые для работы в салоне красоты.
+                </li>
+              </ul>
+              <p
+                      class="course__inner-itemPrice course__inner-itemPrice--forSmallScreens"
+              >
+                Стоимость: 2000 руб
+              </p>
+              <a class="default-btn" href="#popup" data-function="popup"
+              >Записаться на обучение</a
+              >
+            </div>
+            <div class="course__inner-itemDecor"></div>
+          </li>
+          <li class="course__inner-item">
+            <div
+                    class="course__inner-itemImage course__inner-itemImage--right"
+            >
+              <img
+                      src="./img/course2.jpg"
+                      alt="Картинка курса"
+                      title="ImageByFreepik"
+              />
+              <p class="course__inner-itemPrice">Стоимость: 3000 руб</p>
+            </div>
+            <div
+                    class="course__inner-itemTextBox course__inner-itemTextBox--left"
+            >
+              <h2 class="course__inner-itemTitle">Средний уровень</h2>
+              <p
+                      class="course__inner-itemDescription course__inner-itemDescription--left"
+              >
+                Для тех, кто уже имеет некоторый опыт, но хочет улучшить
+                свои навыки и освоить новые техники.
+              </p>
+              <h2 class="course__inner-itemTitle">Что вас ждет:</h2>
+              <ul
+                      class="course__inner-itemDescriptionList course__inner-itemDescriptionList--left"
+              >
+                <li>
+                  Углубленное изучение парикмахерского искусства, маникюра,
+                  педикюра, макияжа.
+                </li>
+                <li>Работа с различными типами волос, ногтей и кожи.</li>
+                <li>
+                  Результат: Вы повысите свой профессиональный уровень и
+                  сможете предлагать клиентам более широкий спектр услуг.
+                </li>
+              </ul>
+              <p
+                      class="course__inner-itemPrice course__inner-itemPrice--forSmallScreens"
+              >
+                Стоимость: 4000 руб
+              </p>
+              <a
+                      class="default-btn course__btn"
+                      href="#popup"
+                      data-function="popup"
+              >Записаться на обучение</a
+              >
+            </div>
+            <div class="course__inner-itemDecor"></div>
+          </li>
+          <li class="course__inner-item">
+            <div class="course__inner-itemImage">
+              <img
+                      src="./img/course3.jpg"
+                      alt="Картинка курса"
+                      title="ImageByFreepik"
+              />
+              <p class="course__inner-itemPrice">Стоимость: 5000 руб</p>
+            </div>
+            <div class="course__inner-itemTextBox">
+              <h2 class="course__inner-itemTitle">Мастера</h2>
+              <p class="course__inner-itemDescription">
+                Мастер-классы от ведущих специалистов индустрии красоты.
+              </p>
+              <h2 class="course__inner-itemTitle">Что вас ждёт:</h2>
+              <ul class="course__inner-itemDescriptionList">
+                <li>Создание уникальных образов и коллекций.</li>
+
+                <li>Практические занятия с участием моделей.</li>
+                <li>
+                  Результат: Вы станете настоящим профессионалом своего
+                  дела, способным создавать шедевры красоты.
+                </li>
+              </ul>
+              <p
+                      class="course__inner-itemPrice course__inner-itemPrice--forSmallScreens"
+              >
+                Стоимость: 6000 руб
+              </p>
+              <a class="default-btn" href="#popup" data-function="popup"
+              >Записаться на обучение</a
+              >
+            </div>
+            <div class="course__inner-itemDecor"></div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="programm" id="programm">
+  <div class="container">
+    <h2 class="default-title programm__default-title">Программа</h2>
+    <div class="accordion">
+      <div class="accordion__list">
+        <div class="accordion__item">
+          <div class="accordion__item-header">
+            <h2>Повышение квалификации для начинающих мастеров</h2>
+            <span class="icon-down"></span>
+          </div>
+          <div class="accordion__item-content">
+            <ul>
+              <li>
+                Этот курс предназначен для тех, кто уже имеет некоторый опыт
+                работы в салоне красоты, но хочет достичь новых высот в
+                своей профессии. Вы получите углубленные знания и
+                практические навыки, чтобы предлагать клиентам более широкий
+                спектр услуг.
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="accordion__item">
+          <div class="accordion__item-header">
+            <h2>Профессиональный старт</h2>
+            <span class="icon-down"></span>
+          </div>
+          <div class="accordion__item-content">
+            <ul>
+              <li>
+                Курс "Профессиональный старт" разработан для новичков, желающих освоить основы работы в салоне красоты.
+              </li>
+              <li>
+                Вы научитесь работать с клиентами, выполнять базовые процедуры и создавать стильные образы.
+              </li>
+              <li>
+                Программа включает теоретические занятия и практические упражнения, чтобы вы могли сразу применять полученные знания на практике.
+              </li>
+              <li>
+                Результат: вы получите базовые знания и навыки, необходимые для работы в салоне красоты.
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="accordion__item">
+          <div class="accordion__item-header">
+            <h2>Мастер-классы от лучших</h2>
+            <span class="icon-down"></span>
+          </div>
+          <div
+                  class="accordion__item-content accordion__item-content--for4row"
+          >
+            <div class="accordion__item">
+              <div class="accordion__item-header">
+                <h2>
+                  Мастер-классы от ведущих специалистов индустрии красоты
+                </h2>
+                <span class="icon-down"></span>
+              </div>
+              <div class="accordion__item-content">
+                <ul>
+                  <li>
+                    Участвуйте в уникальных мастер-классах, которые проводят признанные эксперты в области парикмахерского искусства, макияжа и косметологии.
+                  </li>
+                  <li>
+                    Освойте новые техники и создавайте инновационные образы, которые будут в тренде.
+                  </li>
+                  <li>
+                    Получите возможность обмениваться опытом с профессионалами и расширить свои горизонты.
+                  </li>
+                  <li>
+                    Результат: вы станете настоящим профессионалом своего дела, способным создавать шедевры красоты.
+                  </li>
+
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="tutor" id="tutor">
+  <div class="container">
+    <h2 class="default-title">Преподаватели</h2>
+    <div class="tutor__inner">
+      <div class="tutor__image">
+        <img
+                src="./img/tutor.jpg"
+                alt="Преподаватель курса"
+                title="ImageByFreepik"
+        />
+      </div>
+      <div class="tutor__textbox">
+        <h2 class="tutor__name">Ольга Ивановна</h2>
+        <p class="tutor__textbox-text">
+          Опытный специалист с 10-летним стажем работы в индустрии красоты.
+          Ее специализация включает парикмахерское искусство, макияж и
+          косметологию. Имеет высшее образование по специальности
+          "Парикмахерское искусство" и прошла курсы повышения квалификации в
+          области макияжа и косметологии.
+        </p>
+        <ul>
+          <li>
+            Победитель и призер многочисленных конкурсов и чемпионатов по
+            парикмахерскому искусству и макияжу. Она является членом жюри
+            профессиональных конкурсов и автором статей и мастер-классов по
+            теме красоты.
+          </li>
+          <li>
+            Ее подход к обучению характеризуется индивидуальным вниманием к
+            каждому студенту, помогая развить его сильные стороны и
+            устранить недостатки. Преподаватель стремится к
+            практико-ориентированному обучению, чтобы студенты могли сразу
+            применять полученные знания на практике.
+          </li>
+        </ul>
+        <h2 class="tutor__textbox-title">Работы:</h2>
+        <a
+                class="default-btn tutor__jobLink"
+                href="#header"
+                data-function="link"
+        >Ссылка</a
+        >
+      </div>
+    </div>
+  </div>
+
+  <div class="tutor__moreServices">
+    <div class="container">
+      <h2 class="tutor__moreServicesTitle">
+        Для ознакомления с дополнительными услугами преподавателя нажмите на
+        кнопку:
+      </h2>
+      <a class="default-btn tutor__default-btn" data-function="accordion"
+      >Дополнительные услуги</a
+      >
+      <div class="accordion" id="accordion--hidden">
+        <div class="accordion__list">
+          <div class="accordion__item">
+            <div class="accordion__item-header">
+              <h2>
+                Индивидуальные консультации по уходу за волосами и кожей
+              </h2>
+              <span class="icon-down"></span>
+            </div>
+            <div class="accordion__item-content">
+              <ul>
+                <li>
+                  Получите персональные рекомендации от наших экспертов по уходу за волосами и кожей. Мы разработаем индивидуальный план ухода, основанный на ваших особенностях.
+                </li>
+                <li>
+                  Консультации включают анализ состояния волос и кожи, рекомендации по продуктам и техникам ухода.
+                </li>
+                <li>
+                  Результат: вы получите здоровые и красивые волосы, а также ухоженную кожу.
+                </li>
+              </ul>
+              <p>Стоимость: 7000 руб.</p>
+            </div>
+          </div>
+
+          <div class="accordion__item">
+            <div class="accordion__item-header">
+              <h2>
+                Мастер-классы по созданию вечернего макияжа
+              </h2>
+              <span class="icon-down"></span>
+            </div>
+            <div class="accordion__item-content">
+              <ul>
+                <li>
+                  Освойте искусство создания вечернего макияжа с нашими профессиональными визажистами. Узнайте секреты создания роскошных образов для особых случаев.
+                </li>
+                <li>
+                  В ходе мастер-класса вы научитесь правильно подбирать цвета, текстуры и техники для создания идеального макияжа.
+                </li>
+                <li>
+                  Результат: вы сможете самостоятельно делать вечерний макияж, который подчеркнет вашу красоту.
+                </li>
+              </ul>
+              <p>Стоимость: 7000 руб.</p>
+            </div>
+          </div>
+
+          <div class="accordion__item">
+            <div class="accordion__item-header">
+              <h2>
+                Перманентный макияж
+              </h2>
+              <span class="icon-down"></span>
+            </div>
+            <div class="accordion__item-content">
+              <ul>
+                <li>
+                  Забудьте о ежедневных ритуалах макияжа! Наши мастера выполнят перманентный макияж бровей, век и губ, чтобы вы всегда выглядели безупречно.
+                </li>
+                <li>
+                  Мы используем безопасные и проверенные техники, чтобы создать естественный и долговечный результат.
+                </li>
+                <li>
+                  Результат: вы будете выглядеть ухоженной и уверенной в любой ситуации.
+                </li>
+              </ul>
+              <p>Стоимость: 7000 руб.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer" id="footer">
+  <div class="container">
+    <h2 class="default-title">Контакты</h2>
+    <div class="footer__top">
+      <div class="footer__textbox">
+        <p class="footer__textbox-text">
+          График работы: <br />
+          Ежедневно <br />
+          С 9:00 до 18:00
+        </p>
+        <div class="footer__textbox-links">
+          <a class="footer__textbox-link" href="tel:7999999999"
+          >+7 (999) 09-08-07</a
+          >
+        </div>
+      </div>
+      <div class="map" id="map"></div>
+    </div>
+  </div>
+  <div class="footer__bottom">
+    <div class="container">
+      <div class="footer__bottom-inner">
+        <div class="footer__bottom-links">
+          <a
+                  class="footer__bottom-link footer__bottom-link--VK"
+                  href="#header"
+          ></a
+          ><a
+                class="footer__bottom-link footer__bottom-link--WP"
+                href="#header"
+        ></a
+        ><a
+                class="footer__bottom-link footer__bottom-link--TG"
+                href="#header"
+        ></a
+        ><a
+                class="footer__bottom-link footer__bottom-link--GMail"
+                href="mailto:example@email.com"
+        ></a>
+        </div>
+        <div class="footer__bottom-infoLinks">
+          <a
+                  class="footer__bottom-infoLink"
+                  href="./privacy_policy.html"
+                  target="_blank"
+          >Политика обработки персональных данных</a
+          >
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+<div class="popup" id="popup">
+  <div class="popup__content" id="popupContent">
+    <a class="popup__closeBtn" href="#header"></a>
+    <h2 class="default-title popup__default-title">Заполните заявку</h2>
+    <p class="statusMessage" id="statusMessage"></p>
+
+    <form class="form" id="form" action="php/send.php" method="POST">
+      <div class="form__item">
+        <label class="form__label" for="formName">Имя *:</label>
+        <input
+                class="form__input _req _name"
+                id="formName"
+                type="text"
+                name="name"
+                placeholder="Имя"
+                minlength="2"
+                maxlength="30"
+        />
+      </div>
+
+      <div class="form__item">
+        <label class="form__label" for="formEmail">Email *:</label>
+        <input
+                class="form__input _req _email"
+                id="formEmail"
+                type="text"
+                name="email"
+                placeholder="Email"
+                minlength="10"
+                maxlength="35"
+        />
+      </div>
+
+      <div class="form__item">
+        <label class="form__label" for="formTel">Телефон *:</label>
+        <input
+                class="form__input _req _phone"
+                id="formTel"
+                type="tel"
+                name="tel"
+                placeholder="+7 (XXX) XXX-XX-XX"
+        />
+      </div>
+
+      <div class="form__item">
+        <label class="form__label" for="formCourse">Курс:</label>
+        <select
+                class="form__select"
+                multiple="multiple"
+                name="course[]"
+                id="formCourse"
+        >
+          <option value="Базовый">Базовый курс</option>
+          <option value="Средний">Средний курс</option>
+          <option value="Мастер">Мастера</option>
+          <option value="Повышение квалификации для начинающих мастеров">
+            Повышение квалификации для начинающих мастеров
+          </option>
+          <option value="Профессиональный старт">
+            Профессиональный старт
+          </option>
+          <option value="Мастер-классы от лучших">
+            Мастер-классы от лучших
+          </option>
+        </select>
+      </div>
+
+      <button class="form__btn" type="submit">
+        Записаться на обучение
+      </button>
+
+      <div class="form__item">
+        <div class="checkbox">
+          <input
+                  class="checkbox__input _req"
+                  id="formAgree"
+                  name="agree"
+                  type="checkbox"
+                  checked
+          />
+          <label for="formAgree" class="checkbox__label">
+                <span>Я даю своё согласие на обработку персональных данных в
+                  соответствии c
+                  <a href="./privacy_policy.html">условиями*.</a></span>
+          </label>
+        </div>
+      </div>
+      <p></p>
+    </form>
+  </div>
+</div>
+
+<script src="https://api-maps.yandex.ru/2.1/?apikey=4a854e8e-2ab5-4452-b049-93810aea110f&lang=ru_RU "></script>
+<script src="./js/jquery-3.7.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+<script src="./js/smoothscroll.min.js"></script>
+<script src="./js/inputmask.min.js"></script>
+<script src="./js/main.js"></script>
+</body>
+</html>
